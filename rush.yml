@@ -3,7 +3,7 @@
 
 ---
 name: NativeUtils
-description: Test extension for NativeUtil library <br> Developed by Sunny Gupta
+description: Dynamically inject and load Native (.so) libraries in your app <br> Developed by Sunny Gupta
 
 version:
   number: 1
@@ -30,5 +30,5 @@ assets:
   #   - my_awesome_asset.anything
 
 # Extension dependencies (JAR).
-# deps:
-#   - my_awesome_library.jar
+#deps:
+#   - push1.jar

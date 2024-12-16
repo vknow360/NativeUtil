@@ -7,9 +7,9 @@
 -keeppackagenames gnu.kawa**, gnu.expr**
 
 -optimizationpasses 4
--allowaccessmodification
--mergeinterfacesaggressively
+-dontobfuscate
 
 -repackageclasses 'com/sunny/native/repack'
 -flattenpackagehierarchy
 -dontpreverify
+-dontwarn
